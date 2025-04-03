@@ -102,3 +102,13 @@ button:hover {
     list-style: none;
     font-size: 1.2em;
 }
+
+@media (max-width: 600px) {
+    .stopwatch {
+        font-size: 1.5em;
+    }
+    button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
